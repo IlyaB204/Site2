@@ -1,0 +1,371 @@
+@import url('/static/css/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    
+    margin: 0px auto;
+    font-family: "Roboto", sans-serif;
+}
+
+/*HEADER*/
+
+.header{
+    display: block;
+    unicode-bidi: isolate;
+    padding: 29px 165px;
+    border-bottom: 1px solid #DDDDDD;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content-header{
+    display: flex;
+    justify-content: center;
+}
+
+.content2-header{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+
+.text-logo{
+    
+    font-weight: 300;
+    font-size: 20px;
+    color: #333333;
+}
+
+
+
+.nav-block{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+    margin-left: 296px;
+}
+
+.nav-link{
+    color: #4C5866;
+    line-height: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    transition: color 0.3s ease-in-out;
+}
+
+.search-login-block{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-left: 60px;
+}
+
+.nav-link:hover{
+    color: #7875FE;
+}
+
+.login:hover{
+    transform: scale(1.1);
+}
+
+.login{
+    transition: transform 0.2s;
+}
+
+.search:hover{
+    transform: scale(1.1);
+    
+}
+
+.search{
+    transition: transform 0.2s ease-in;
+}
+
+/*Section*/
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-top: 130px;
+    width: 445px;
+    height: 361px;
+    column-gap: 30px;
+}
+
+.img-block{
+    margin-top: 60px;
+    margin-left: 125px;
+}
+
+.text1-cont{
+    font-size: 60px;
+    color: #4C5866;
+}
+
+.text2-cont{
+    font-size: 18px;
+    color: #85859B;
+}
+
+.logo1-cont{
+    display: none;
+}
+
+.btn1{
+    width: 255px;
+    height: 70px;
+    padding: 23.5px 89.5px; 
+    border:2px solid #7875FE;
+    color:#7875FE;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn1:hover{
+    background-color: #7875FE;
+    color: white;
+}
+
+/*SECTION2*/
+
+.section2{
+    background-color: #ebebeb;
+    padding: 90px 165px;
+}
+
+.block1-sect2{
+    display: flex;
+    column-gap: 30px;
+}
+
+.cont1-block1{
+    display: flex;
+    border-top: 1px solid #C0C0C0;
+    padding-top: 20px;
+}
+
+.text-cont1{
+    margin-left: 30px;
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+.text1-cont1{
+    color: #666666;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text2-cont1{
+    font-weight: 400;
+    font-size: 18px;
+    color: #85859B;
+}
+
+.block2-sect2{
+    display: flex;
+    margin-top: 90px;
+}
+
+.text-block2{
+    overflow-wrap: break-word;
+    margin-top: 59px;
+    margin-left: 30px;
+    width: 350px;
+    height: 445px;
+}
+
+.text1-block2{
+    color: #666666;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.text2-block2{
+    color: #85859B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+/*SECTION3*/
+
+.section3{
+    background-color: #FFFFFF;
+    
+}
+
+.block-sect3{
+    display: flex;
+    column-gap: 30px;
+    margin: 90px 0px;
+}
+
+.block3-cont1{
+    overflow-wrap: break-word;
+    width: 255px;
+    height: 465px;
+}
+
+.text1-block3{
+    color: #666666;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 20px;
+}
+
+.text2-block3{
+    color: #B5B5BD;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.text3-block3{
+    color: #85859B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.text-link-block3{
+    color: #7875FE;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    transition: color 0.3s ease-in-out;
+}
+
+.text-link-block3:hover{
+    color: #3c3aa8;
+}
+
+/*SECTION4*/
+
+.section4{
+    background-color: #ebebeb;
+    padding: 90px 0px;
+}
+
+.block-sect4{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+/*SECTION5*/
+
+.section5{
+    background-color: #FFFFFF;
+    padding-top: 90px;
+}
+
+.block-sect5{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-block-sect5{
+  width: 350px;
+  height: 272px;
+  padding-top: 24px;  
+  
+}
+
+.text1-block-sect5{
+    color: #666666;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.text2-block-sect5{
+    margin-top: 8px;
+    color: #85859B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.btn2{
+    width: 255px;
+    height: 70px;
+    margin-top: 30px; 
+    border:2px solid #7875FE;
+    color:#7875FE;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn2:hover{
+    background-color: #7875FE;
+    color: white;
+}
+
+.img-block-sect5{
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+/*Footer*/
+
+.block1-footer{  
+    display: flex;
+    justify-content: center;
+    column-gap: 787px;
+    background-color: #4C5866;
+    padding: 29px 0px;
+}
+
+.logo1{
+    display: flex;
+    column-gap: 5px;
+}
+
+.text1-logo{
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+.link-site{
+    display: flex;
+    column-gap: 33px;
+}
+
+.block2-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 3px 0px;
+    
+}
+
+.text-block2-footer{
+    color: #4C5866;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+
+.text2-block2-footer{
+    display: inline;
+    color: #c2baba;
+}
