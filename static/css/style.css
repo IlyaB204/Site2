@@ -46,6 +46,9 @@ body{
     color: #333333;
 }
 
+.content3-header{
+    display: none;
+}
 
 
 .nav-block{
@@ -280,6 +283,10 @@ body{
     
 }
 
+.img3-block-cont5{
+    display: none;
+}
+
 .text-block-sect5{
   width: 350px;
   height: 272px;
@@ -322,6 +329,14 @@ body{
     margin-left: 30px;
 }
 
+.img2-block-sect5{
+    display: none;
+}
+
+.section5-2{
+    display: none;
+}
+
 /*Footer*/
 
 .block1-footer{  
@@ -347,6 +362,7 @@ body{
 .link-site{
     display: flex;
     column-gap: 33px;
+    
 }
 
 .block2-footer{
@@ -368,4 +384,10 @@ body{
 .text2-block2-footer{
     display: inline;
     color: #c2baba;
+}
+
+.line{
+    display: block;
+    width: 100%;
+    border-top: 1px solid #DDDDDD;
 }
